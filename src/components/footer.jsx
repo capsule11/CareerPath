@@ -35,7 +35,7 @@ const Footer = () => {
                   href="#"
                   className="text-gray-400 hover:text-white transition-colors"
                 >
-                  <aedin className="h-5 w-5" />
+                  <div className="h-5 w-5" />
                 </a>
                 <a
                   href="#"
