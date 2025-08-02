@@ -39,12 +39,12 @@ const Navbar = () => {
           </nav>
 
           <div className="flex items-center space-x-4">
-            <a href="/auth">
+            <a href="/signup">
               <button variant="ghost" size="sm" className="text-gray-600 hover:text-gray-900">
                 Sign In
               </button>
             </a>
-            <a href="/auth">
+            <a href="/login">
               <button
                 size="sm"
                 className="p-2 x-4 rounded-lg-border bg-gradient-to-r from-blue-600 to-purple-600 hover:from-blue-700 hover:to-purple-700 text-white border-0 shadow-lg hover:shadow-xl transition-all duration-300"
