@@ -11,10 +11,18 @@ const App = () => {
       <div className="flex flex-col min-h-screen bg-gradient-to-br from-slate-950 via-slate-900 to-slate-800 relative overflow-hidden">
         <Navbar />
         <Routes>
-          <Route path="/signup" element={<Signup />} />
-          <Route path="/login" element={<Login />} />
+          <Route
+            path="/signup"
+            element={<Signup />}
+          />
+          <Route
+            path="/login"
+            element={<Login />}
+          />
         </Routes>
-        <Footer />
+        <div className="mt-auto">
+          <Footer />
+        </div>
       </div>
     </Router>
   );
